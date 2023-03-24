@@ -8,7 +8,6 @@ function App() {
     <div className="App">      
       <CounterFunction />
       <Todos />
-      <br></br>
       <Stopwatchtimmer />
     </div>
   );
