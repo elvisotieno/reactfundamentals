@@ -7,13 +7,14 @@ const Datafetching = () => {
 
     useEffect(()=>{
       // Optionally the request above could also be done as
-axios.get('/user', {
+axios.get('https://hst-api.wialon.com/wialon/ajax.html?svc=token/login', {
     params: {
-      ID: 12345
+      "token":"c87c6696df532c1cf1d7a2bec64a6c0cA22EDDC760CA71AAA1C50A8A224B8EE5B89F26AE"
     }
   })
   .then(function (response) {
     console.log(response);
+    setData(response)
   })
   .catch(function (error) {
     console.log(error);
