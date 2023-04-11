@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import CounterFunction from './react_fundamentals/usestateus';
 import Todos from './react_fundamentals/usereducer/todos';
@@ -10,7 +11,7 @@ function App() {
       <CounterFunction />
       <Todos />
       <Stopwatchtimmer />
-      <Datafetching/>
+      <Datafetching />
     </div>
   );
 }
